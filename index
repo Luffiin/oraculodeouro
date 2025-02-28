@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Definindo a codificação da página para UTF-8 para suportar acentos e caracteres especiais -->
+    <meta charset="UTF-8"> 
+
+    <!-- Responsividade: diz ao navegador para ajustar a página de acordo com a largura da tela -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título da página que aparece na aba do navegador -->
+    <title>Login</title>
+
+    <!-- Link para o arquivo CSS para estilizar a página -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Contêiner principal do formulário de login -->
+    <div class="login-container">
+        <!-- Título da página de login -->
+        <h2>Login</h2>
+
+        <!-- Formulário de login, com id para referenciar no JavaScript -->
+        <form id="login-form">
+            <!-- Campo para o nome de usuário -->
+            <div class="input-container">
+                <label for="username">Nome de usuário:</label>
+                <input type="text" id="username" name="username" required> <!-- 'required' força o preenchimento -->
+            </div>
+
+            <!-- Campo para a senha -->
+            <div class="input-container">
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required> <!-- 'required' força o preenchimento -->
+            </div>
+
+            <!-- Botão para enviar o formulário -->
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+
+</body>
+</html>
